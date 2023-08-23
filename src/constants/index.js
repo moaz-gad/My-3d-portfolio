@@ -15,13 +15,15 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  itzain,
+  dv,
+  basmetelhayat,
+  paramount,
+  dvwebsite,
+  recoveryhub,
+  infrafit,
+  amrsalah,
+  shehab,
   threejs,
 } from "../assets"
 
@@ -42,7 +44,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
@@ -50,11 +52,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Javascript Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "React Creator",
     icon: creator,
   },
 ]
@@ -116,55 +118,29 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "React Developer",
+    company_name: "It Zain",
+    icon: itzain,
+    iconBg: "#fff",
+    date: "Feb 2023 - Present",
+    points: [
+      "Developed HR system's UI using React, enhancing user experience.",
+      "Collaborated on front-end tasks, translating designs into functional components.",
+      "Supported seamless integration of responsive web elements for the HR system.",
+    ],
+  },
+
+  {
+    title: "Frontend Developer",
+    company_name: "Digital Vibes",
+    icon: dv,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2022 - Feb 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developed and maintained over 10 projects for clients in various industries using React, jQuery, and advanced CSS.",
+      "Collaborated with designers to ensure high-quality designs were implemented into all projects.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Gained experience in marketing by working with clients in the marketing industry, and incorporating marketing strategies into frontend development projects.",
     ],
   },
 ]
@@ -172,84 +148,76 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrongggg.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I had the pleasure of working with Moaz on several projects and I must say that he is one of the most talented developers I have ever worked with. His knowledge of front-end development is exceptional, and his ability to translate designs into clean, functional, and responsive code is impressive.",
+    name: "Amr Salah",
+    designation: "UI/UX designer",
+    company: "",
+    image: amrsalah,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Working with Moaz was a remarkable experience. He brilliantly translated our ideas into a captivating website, showcasing his expertise and commitment. The seamless collaboration produced an impressive online presence for Illuminate.",
+    name: "Shehab Alkaabi",
+    designation: "Owner",
+    company: "Of illuminateproductions",
+    image: shehab,
   },
 ]
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Basmat-Elhayat",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "I helped enhance the performance and resolve front-end issues for a United Arab Emirates-based beauty, treatment, and cosmetic dentistry center.",
     tags: [
       {
-        name: "react",
+        name: "bootstrap",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "jquery",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: basmetelhayat,
+    source_code_link: "https://basmatalhayat.com/",
   },
   {
-    name: "Job IT",
+    name: "paramount",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "I optimized the front-end codebase and integrated a patient appointment booking form for this medical center.",
     tags: [
       {
-        name: "react",
+        name: "bootstrap",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "jquery",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: paramount,
+    source_code_link: "https://paramountmedicalcenter.ae/",
   },
   {
-    name: "Trip Guide",
+    name: "Digital Vibes",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "I created a custom-designed website for an e-marketing company, using custom widgets and utilizing JavaScript and CSS modifications to meet  the UI.",
     tags: [
       {
-        name: "nextjs",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "wordpress",
         color: "green-text-gradient",
       },
       {
@@ -257,8 +225,50 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: dvwebsite,
+    source_code_link: "https://digitalvibesmarketing.com",
+  },
+  {
+    name: "Recovery Hub",
+    description:
+      "I built a cosmetic and physiotherapy medical center, following UI design guidelines. Custom JavaScript and CSS improved both functionality and aesthetics.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "wordpress",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: recoveryhub,
+    source_code_link: "https://recoveryhub.ae",
+  },
+  {
+    name: "Infrafit",
+    description:
+      "I performed a complete redesign of a sizable medical center's website in the Emirates, achieving significant performance enhancements while also resolving various front-end issues.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "wordpress",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: infrafit,
+    source_code_link: "https://infrafit.ae/",
   },
 ]
 

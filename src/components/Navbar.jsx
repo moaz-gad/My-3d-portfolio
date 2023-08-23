@@ -1,29 +1,28 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-
-import { styles } from "../styles";
-import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import React, { useEffect, useState } from "react"
+import { Link } from "react-router-dom"
+import { styles } from "../styles"
+import { navLinks } from "../constants"
+import { logo, menu, close } from "../assets"
 
 const Navbar = () => {
-  const [active, setActive] = useState("");
-  const [toggle, setToggle] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
+  const [active, setActive] = useState("")
+  const [toggle, setToggle] = useState(false)
+  const [scrolled, setScrolled] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollTop = window.scrollY;
+      const scrollTop = window.scrollY
       if (scrollTop > 100) {
-        setScrolled(true);
+        setScrolled(true)
       } else {
-        setScrolled(false);
+        setScrolled(false)
       }
-    };
+    }
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll)
 
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, [])
 
   return (
     <nav
@@ -38,14 +37,19 @@ const Navbar = () => {
           to="/"
           className="flex items-center gap-2"
           onClick={() => {
-            setActive("");
-            window.scrollTo(0, 0);
+            setActive("")
+            window.scrollTo(0, 0)
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <img
+            src={logo}
+            alt="logo"
+            className="w-11 h-11 object-contain"
+            style={{ transform: "scaleX(-1)" }}
+          />
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-            Liron &nbsp;
-            <span className="sm:block hidden"> | 3D Portfolio</span>
+            Moaz &nbsp;
+            <span className="sm:block hidden"> | Portfolio</span>
           </p>
         </Link>
 
@@ -84,8 +88,8 @@ const Navbar = () => {
                     active === nav.title ? "text-white" : "text-secondary"
                   }`}
                   onClick={() => {
-                    setToggle(!toggle);
-                    setActive(nav.title);
+                    setToggle(!toggle)
+                    setActive(nav.title)
                   }}
                 >
                   <a href={`#${nav.id}`}>{nav.title}</a>
@@ -96,7 +100,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar
