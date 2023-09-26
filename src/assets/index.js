@@ -29,6 +29,8 @@ import paramount from "./paramount.png"
 import dvwebsite from "./dv-website.png"
 import recoveryhub from "./recoveryhub.png"
 import infrafit from "./infrafit.png"
+import zilla from "./zilla.jpeg"
+import illuminate from "./illuminate.jpeg"
 
 import amrsalah from "./amrsalah.jpg"
 import shehab from "./shehab.jpg"
@@ -64,4 +66,6 @@ export {
   shehab,
   infrafit,
   recoveryhub,
+  zilla,
+  illuminate,
 }

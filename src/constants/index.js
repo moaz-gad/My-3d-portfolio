@@ -22,6 +22,8 @@ import {
   dvwebsite,
   recoveryhub,
   infrafit,
+  zilla,
+  illuminate,
   amrsalah,
   shehab,
   threejs,
@@ -165,6 +167,46 @@ const testimonials = [
 ]
 
 const projects = [
+  {
+    name: "Zilla design",
+    description: "Create the frontend and form submission",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "WordPress",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Cdn",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: zilla,
+    source_code_link: "https://zillads.com/",
+  },
+  {
+    name: "Illuminate Productions",
+    description: "Create all the design and the animation of the website",
+    tags: [
+      {
+        name: "Css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "jquery",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: illuminate,
+    source_code_link: "https://illumin8production.com/",
+  },
   {
     name: "Basmat-Elhayat",
     description:
