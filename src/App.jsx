@@ -18,7 +18,7 @@ const App = () => {
 
   useEffect(() => {
     // Add a listener for changes to the screen size
-    const mediaQuery = window.matchMedia("(max-width: 500px)")
+    const mediaQuery = window.matchMedia("(max-width: 600px)")
 
     // Set the initial value of the `isMobile` state variable
     setIsMobile(mediaQuery.matches)
@@ -46,7 +46,7 @@ const App = () => {
         <About />
         <Experience />
         {!isMobile && <Tech />}
-        <Works />
+        <Works isMobile={isMobile} />
         <Feedbacks />
         <div className="relative z-0">
           <Contact />
