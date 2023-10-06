@@ -1,7 +1,6 @@
 import { useState, useRef } from "react"
 import { motion } from "framer-motion"
 import emailjs from "@emailjs/browser"
-
 import { styles } from "../styles"
 import { EarthCanvas } from "./canvas"
 import { SectionWrapper } from "../hoc"
@@ -27,16 +26,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_r0jcplm",
-        "template_1t76uxq",
+        "service_gxvdjcj",
+        "template_7ehm7oa",
         {
           form_name: form.name,
-          to_name: "Liron",
+          to_name: "Moaz",
           from_email: form.email,
           to_email: "moaz.a.gad@gmail.com",
           message: form.message,
         },
-        "Jqq9AvwIuSjoMiA5c"
+        "b-sIKwSRHm8dZ22EY"
       )
       .then(
         () => {

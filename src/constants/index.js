@@ -23,6 +23,7 @@ import {
   recoveryhub,
   infrafit,
   zilla,
+  crewma,
   illuminate,
   amrsalah,
   shehab,
@@ -168,6 +169,26 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Crewma",
+    description: "Create all the website and the translation funcitionality",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: crewma,
+    source_code_link: "https://crewma.com/",
+  },
+  {
     name: "Zilla design",
     description: "Create the frontend and form submission",
     tags: [
@@ -188,7 +209,7 @@ const projects = [
     source_code_link: "https://zillads.com/",
   },
   {
-    name: "Illuminate Productions",
+    name: "Illuminate",
     description: "Create all the design and the animation of the website",
     tags: [
       {

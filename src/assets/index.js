@@ -31,6 +31,7 @@ import recoveryhub from "./recoveryhub.png"
 import infrafit from "./infrafit.png"
 import zilla from "./zilla.jpeg"
 import illuminate from "./illuminate.jpeg"
+import crewma from "./crewma.jpeg"
 
 import amrsalah from "./amrsalah.jpg"
 import shehab from "./shehab.jpg"
@@ -68,4 +69,5 @@ export {
   recoveryhub,
   zilla,
   illuminate,
+  crewma,
 }
