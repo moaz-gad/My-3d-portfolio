@@ -46,7 +46,7 @@ const App = () => {
         <About />
         <Experience />
         {!isMobile && <Tech />}
-        <Works />
+        <Works isMobile={isMobile} />
         <Feedbacks />
         <div className="relative z-0">
           <Contact />
